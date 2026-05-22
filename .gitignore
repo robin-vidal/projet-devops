@@ -1,0 +1,57 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Terraform secrets
+*.tfvars
+*.tfvars.json
+!terraform/envs/*/terraform.tfvars
+
+# AWS credentials
+.aws/
+credentials
+*.pem
+*.key
+
+# Secrets and env files
+.env
+.env.*
+secrets/
+*.secret
+
+# Ansible
+ansible/inventories/*/group_vars/vault.yml
+*.vault
+.vault_pass
+
+# Docker
+.dockerenv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python (Ansible)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs
+*.log
