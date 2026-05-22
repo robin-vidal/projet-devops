@@ -13,7 +13,7 @@ variable "env" {
 variable "project" {
   description = "Project name used for resource naming and tagging"
   type        = string
-  default     = "platform"
+  default     = "gitea-forge-aws"
 }
 
 variable "aws_account_id" {
